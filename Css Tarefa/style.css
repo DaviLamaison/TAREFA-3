@@ -1,0 +1,115 @@
+header {
+    color:dimgray;
+    text-align: center;
+    background-color: #DEDEDE;
+    padding: 30px;
+}
+
+nav {
+    text-align: center;
+    background-color: #545454;
+    padding: 20px;
+}
+
+nav a {
+    font-family: arial, sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav a:hover {
+    cursor: pointer;
+    color:#DEDEDE;
+    text-decoration: none;
+    padding: 10px;
+}
+
+main{
+   justify-self: center;
+   padding: 40px;
+   background-color: white;
+}
+
+footer {
+    text-align: center;
+}
+
+body {
+    background-color: #D7D7D7;
+}
+
+main h2{
+    color: dimgray;
+}
+
+
+.header2 {
+    color: #DEDEDE;
+    text-align: center;
+    background-color:#545454;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.navegador2 {
+    text-align: center;
+    background-color: #545454;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.navegador2 a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.main2 {
+    width: 40%;
+}
+
+
+
+.main2 img {
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.3);
+    align-items:baseline;
+    width:156px;
+    height: 160px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.main2 h2 {
+    color: dimgray;
+    font-size: 33px;
+    font-family: sans-serif;
+}
+
+.login03 {
+
+    width: 20%;
+    min-height: 20px;
+    margin-top: 20%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, .5);
+    text-align: center;
+    padding-top: 20px;
+    max-width: 300px;
+    border-style:double;    
+}
+
+button {
+    color: black;
+}
+
+button:hover {
+    color: white;
+}
+
+button img {
+    width: 15px;
+    height: 15px;
+}
