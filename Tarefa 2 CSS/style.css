@@ -1,0 +1,119 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color:#fbe4ae;
+    text-align: center;
+    font-size: 30px;
+    padding: 1px;
+}
+
+header h1{
+    font-family: fantasy;
+    color: #003366;
+}
+
+nav{
+    padding: 15px;
+    text-align: center;
+    background-color: #dacb8a;  
+    position: sticky;
+    top:0;
+}
+
+nav a {
+    color: #4E342E;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+nav a:hover{
+    color: #0056b3;
+    padding: 5px;
+    transition: all 0.2s;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    background-color:#897632;
+    width: 90;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+
+main img{
+    width: 150px;
+    height: 150px;
+    vertical-align: top;
+}
+
+main h2{
+    font-family: sans-serif;
+    color: #FFF9C4;
+}
+
+main p{
+    font-family: Arial;
+    color: #FEF9E7;
+}
+
+.jojoo{
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .5);
+    background-color: #392e0e;
+    padding: 15px;
+    border-radius: 7px;
+    border-style:dashed;
+    border-color: #A67B5B;
+    width: 1000px;
+}
+
+.jojo img{
+    background-color: black;
+}
+
+.jojoo p{
+    font-family: DejaVu Sans Mono, monospace;
+}
+
+.jojoo a{
+    text-decoration: none;
+    border:none;
+    color:#2A2A00;
+    background-color:#C2B280;
+}
+
+.jojoo:hover{
+    transform: scale(1.05);
+    border-color: #6F4F28;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: all 0.5s;
+    border-radius: 5px;
+}
+
+.jojoo a:hover{
+    text-decoration: none;
+    background-color: #E1D5B0;
+    padding: 2px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+.jojoo2{
+    width: 900px;
+}
+
+footer{
+    background-color: #6bb88a;
+    padding: 5px;
+}
+
