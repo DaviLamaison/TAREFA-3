@@ -1,0 +1,208 @@
+header {
+    color: white;
+    margin: 10px;
+    margin-left: 40px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.topo {
+    display: flex;
+    background-color: rgb(8, 21, 37);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+}
+
+.quadradao {
+    background: linear-gradient(90deg, #061440, #062873, #3877FF );
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.refs {
+    color: white;
+    padding: 15px;
+    letter-spacing: 2px;
+    margin-left: 50px;
+}
+
+.refs h1 {
+    font-size: 50px;
+}
+
+.refs p {
+    font-size: 25px;
+}
+
+.service {
+    color: black;
+    background-color: orange;
+    padding: 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 25px;
+}
+
+.equipe {
+    color: white;
+    border: solid 1px;
+    padding: 11px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.direita {
+    background-color: white;
+    padding: 1%;
+    border-radius: 20px;
+    margin-right: 50px;
+    height: 40%;
+    margin-top: 80px;
+    width: 70%;
+    margin: 50px;
+}
+
+.direita1 {
+    padding: 5px;
+}
+
+.direita2 {
+    background-color: rgb(225, 235, 243);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.direita3 {
+    background-color: rgb(225, 235, 243);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+main {
+    text-align: center;
+}
+
+main h2 {
+    font-size: 40px;
+    color:rgb(44, 44, 44);
+}
+
+main p {
+    font-size: 20px;
+    color: gray;
+}
+
+.tricard {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cardd {
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    padding: 1%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.cardd a {
+    text-decoration: none;
+    color: #0049e7;
+    font-size: 20px;
+}
+
+.cardd a:hover {
+    color: #003bbb;
+    font-size: 2px;
+}
+
+.cardd img{
+    border-radius: 15px;
+    width: 350px;
+    height: 50%;
+}
+
+.area {
+    background-color: #E1E7EF;
+    padding: 40px;
+    display: flex;
+    margin: 60px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 13px 1px #adbec9;
+}
+
+.PC {
+    background-color: #DDEBFF;
+    padding: 2px;
+    padding-right: 9px;
+    padding-left: 9px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.etapas {
+    background-color: white;
+    padding: 3px;
+    border-radius: 20px;
+}
+
+.etapa1 {
+    background-color: #f1f3f6;
+    padding: 1px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 20px;
+    border-left: 5px solid #1e51e3;
+}
+
+.areadir1 {
+    background-color: white;
+    padding: 3px;
+    margin-left: 60px;
+    border-radius: 20px;
+}
+
+
+
+
+.footerarea {
+    background-color: rgb(8, 21, 37);
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer1 {
+    padding-left: 20px;
+    color: rgb(209, 221, 231) ;
+}
+
+.footer2 {
+    color: rgb(209, 221, 231);
+}
+
+.footer2 a{
+    color: rgb(209, 221, 231);
+    text-decoration: none;
+    text-align: center;
+}
+
+.footer3 {
+    padding-right: 20px;
+    color: rgb(209, 221, 231);
+}
