@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Sistema para cadastro de produtos</h1>
+    </header>
+
+<main>
+        <div class="div1">
+            <form>
+                    <p>
+                        <b>O nome do produto:</b>
+                    </p>
+            <input type="text" id="inputName1" required placeholder="Escreva o nome do produto">
+                <br>
+                    <br>
+
+
+                    <p>
+                        <b>O valor do produto:</b>
+                    </p>
+            <input type="text" id="inputValor1" required placeholder="Escreva o valor do produto">
+                <br>
+                    <br>
+
+            <p id="pProduto"></p>
+                <br>
+                    <br>
+            <button type="button" onclick="botao1()">Cadastre seu produto</button>
+            </form>
+        </div>
+
+                        <br>
+
+        <div class="div1">
+            <h2>Veja seus produtos cadastrados</h2>
+            <button onclick="botao2()">Veja seus produtos</button>
+                <br>
+                    <br>
+            <h2>Produtos cadastrados</h2>
+                <ul>
+                    <b>Lista abaixo:</b>
+                </ul>
+            <ul id="lista"></ul>
+                <div class="desafiooa">
+                    <p id="quantidaade"></p>
+                    <p id="valorrr"></p>
+                    <p id="valorbbb"></p>
+                    <p id="valortotalll"></p>
+            <button onclick="apagar()">Apagar o ultimo</button>
+         </div>
+    </div>
+</main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
