@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    padding: 2rem;
+    padding: 25px;
     display: flex;
     justify-content: space-between;
     background: linear-gradient(101deg,rgba(56, 92, 139, 1) 0%, rgba(75, 138, 239, 1) 100%);
@@ -16,11 +16,11 @@ header {
 header nav{
     margin-top: auto;
     margin-bottom: auto;
-    margin-right: 5rem;
+    margin-right: 5px;
 }
 
 header a { 
-    padding: 2rem;
+    padding: 10px;
     text-decoration: none;
     color: #ffffff;
 }
@@ -31,21 +31,22 @@ header a:hover {
 
 .main1 {
     background-color: #FFFF;
-    width: 60rem;
-    height: 20rem;
+    width: 70%;
+    height: auto;
     justify-self: center;
-    margin-top: 10rem;
-    border-radius: 1rem;
+    margin-top: 10%;
+    border-radius: 10px;
     box-shadow: 0px 0px 10px;
+    padding: 2px;
 }
 
 .main1 h2 {
-    padding: 3rem;
+    padding: 30px;
     text-align: center;
 }
 
 .main1 h3 {
-    margin-top: 1rem;
+    margin-top: 10px;
     text-align: center;
 }
 
@@ -53,62 +54,61 @@ header a:hover {
     justify-self: center;
 }
 
-footer {
-    text-align: center;
-    background: linear-gradient(101deg,rgba(56, 92, 139, 1) 0%, rgba(75, 138, 239, 1) 100%);
-    margin-top: 14rem;
-    padding: 2rem;
-    box-shadow: 0px 0px 7px 4px #000000
-}
-
-footer b {
-    font-size: 1.5rem
-}
-
 .main2 {
     text-align: center;
     background-color: #FFFF;
-    width: 60rem;
+    width: 70%;
     height: auto;
-    border-radius: 1rem;
+    border-radius: 10px;
     justify-self: center;
     text-align: center;
-    margin-top: 10rem;
+    margin-top: 9%
 }
 
 .main3 {
     text-align: center;
     justify-self: center;
-    width: 60rem;
+    width: 70%;
     height: auto;
-    border-radius: 2rem;
-    margin-top: 19.9rem;
+    border-radius: 10px;
+    margin-top: 17.5%;
     background-color: #FFFF;
 }
 
 .divLista {
     justify-self: center;
-    width: 10rem;
+    width: 10%;
 }
 
 .main4 {
     text-align: center;
     justify-self: center;
-    width: 70rem;
-    height: 14rem;
+    width: 70%;
+    height: auto;
     box-shadow: 0px 0px 10px;
-    border-radius: 0.5rem;
+    border-radius:10px;
     background-color: #FFFF;
-    margin-top: 15.99rem;
+    margin-top: 20.3%;
 }
 
 .main5 {
     text-align: center;
     justify-self: center;
     background-color: #FFFF;
-    border-radius: 1rem;
-    width: 50rem;
-    height: auto;
+    border-radius: 10px;
+    width: 70%;
+    height: auto  ;
     box-shadow: 0px 0px 10px;
-    margin-top: 10rem;
+    margin-top: 10%;
+}
+
+.main6 {
+    text-align: center;
+    justify-self: center;
+    width: 70%;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #FFFF;
+    box-shadow: 0px 0px 10px;
+    margin-top: 10%;
 }

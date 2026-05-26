@@ -85,3 +85,48 @@ function senhaProduto() {
         local.appendChild(textocorreto);
     }
 }
+
+
+function Relatorios() {
+    let alunos = ["Ana", "Bruna", "Carla", "Diego", "Eduarda"]
+    let area = document.getElementById("local");
+    let notas = [80, 45, 70, 55, 90]
+    resultado.textContent = " ";
+    
+    for (let i = 0; i < alunos.length; i++) {
+        let texto = document.createElement("p");
+        if (notas[i] < 60) {
+            texto.textContent = alunos[i] + " " + notas[i] + " Reprovado!";
+        }
+
+        else (notas[i] >60) 
+            {texto.textContent = alunos[i] + " " + notas[i] + " Aprovado";}
+        
+        
+        area.appendChild(texto);
+    }
+    
+    
+    let soma = 0;
+    for (let i = 0; i < notas.length; i++) {
+        soma = soma + notas[i];
+    }
+
+    let media = soma / notas.length;
+    document.getElementById("resultado").textContent = "A média da turma é: " + media;
+}
+
+function conferencia() {
+    let valor = document.getElementById("valorGestor").value;
+    let local = document.getElementById("resultadoGestor");
+    let soma = 0;
+    local.textContent = " ";
+
+    while (valor != 0 ) {
+        soma = soma + Number(valor)
+        valor = prompt("Digite o proximo valor, ou 0 para finalizar");
+    }
+
+    local.textContent = soma;
+    
+}
