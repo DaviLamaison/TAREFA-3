@@ -1,0 +1,1 @@
+main img{-webkit-user-select:none;user-select:none;cursor:pointer;max-width:220px;transition:trasform .1s}main img hover{transform:scale(1.05)}main img:active{transform:scale(.95)}
